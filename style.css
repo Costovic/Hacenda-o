@@ -1,0 +1,49 @@
+body {
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(137, 233, 129, 0.856);
+}
+.banner {
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+#categorias-container button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#categorias-container button:hover {
+    background-color: #17a2b8;
+    color: white;
+}
